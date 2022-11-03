@@ -1,0 +1,23 @@
+.header-text {
+  font-family: 'Jaldi', serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 61px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.header-img {
+  height: 40vh;
+  background: url("../../../assets/images/header.jpeg") no-repeat center;
+  background-size: cover;
+  color: #FFFFFF;
+}
+
+.header-img-container {
+  border-left: 0;
+  border-right: 0;
+  border-top: 1px solid #e7e7e7;
+  border-bottom: 1px solid #e7e7e7;
+}

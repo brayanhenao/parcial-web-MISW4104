@@ -10,9 +10,10 @@
 
 .header-img {
   height: 40vh;
-  background: url("../../../assets/images/header.jpeg") no-repeat center;
+  max-width: 100%;
   background-size: cover;
-  color: #FFFFFF;
+  background: #FFFFFF url("../../../assets/images/header.jpeg") no-repeat left;
+  background-size: cover;
 }
 
 .header-img-container {
@@ -20,4 +21,11 @@
   border-right: 0;
   border-top: 1px solid #e7e7e7;
   border-bottom: 1px solid #e7e7e7;
+}
+
+.box-shadow {
+  max-width: 100%;
+  height: 1px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background: #00000033;
 }

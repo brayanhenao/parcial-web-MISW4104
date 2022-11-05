@@ -10,13 +10,12 @@
     </thead>
     <tbody>
     <tr *ngFor="let car of cars">
-      <th scope="row">{{car.id}}</th>
+      <td>{{car.id}}</td>
       <td>{{car.marca}}</td>
       <td>{{car.linea}}</td>
       <td>{{car.modelo}}</td>
     </tr>
     </tbody>
   </table>
-  <p *ngFor="let brand of brands">{{brand}}</p>
-
+  <p class="mb-0" *ngFor="let brand of brands">{{brand}}</p>
 </div>
